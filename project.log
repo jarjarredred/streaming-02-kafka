@@ -1,0 +1,42 @@
+2026-05-20 22:14:40 | DEBUG | P02 | No variables found in .env
+2026-05-20 22:14:40 | INFO | P02 | === RUN START ===
+2026-05-20 22:14:40 | INFO | P02 | project=P02
+2026-05-20 22:14:40 | INFO | P02 | repo_dir=streaming-02-kafka
+2026-05-20 22:14:40 | INFO | P02 | python=3.14.2
+2026-05-20 22:14:40 | INFO | P02 | os=Windows 11
+2026-05-20 22:14:40 | INFO | P02 | shell=powershell
+2026-05-20 22:14:40 | INFO | P02 | cwd=.
+2026-05-20 22:14:40 | INFO | P02 | github_actions=False
+2026-05-20 22:14:40 | INFO | P02 | ========================
+2026-05-20 22:14:40 | INFO | P02 | START producer main()
+2026-05-20 22:14:40 | INFO | P02 | ========================
+2026-05-20 22:14:40 | INFO | P02 | ROOT_DIR = .
+2026-05-20 22:14:40 | INFO | P02 | DATA_DIR = data
+2026-05-20 22:14:40 | INFO | P02 | SALES_CSV = data\sales.csv
+2026-05-20 22:14:40 | INFO | P02 | ========================
+2026-05-20 22:14:40 | INFO | P02 | SECTION A. Acquire
+2026-05-20 22:14:40 | INFO | P02 | ========================
+2026-05-20 22:14:40 | INFO | P02 | Loading settings from .env...
+2026-05-20 22:14:40 | INFO | P02 | KAFKA_BOOTSTRAP_SERVERS           = localhost:9092
+2026-05-20 22:14:40 | INFO | P02 | KAFKA_TOPIC                       = product-sales-case
+2026-05-20 22:14:40 | INFO | P02 | PRODUCER_MESSAGE_COUNT            = 6
+2026-05-20 22:14:40 | INFO | P02 | PRODUCER_MESSAGE_INTERVAL_SECONDS = 2.0
+2026-05-20 22:14:40 | INFO | P02 | KAFKA_CLEAR_TOPIC_ON_START        = False
+2026-05-20 22:14:40 | INFO | P02 | Verifying Kafka connection...
+2026-05-20 22:14:44 | ERROR | P02 | !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Python code is running,
+but Kafka is not available.
+Kafka is not reachable.
+The program tried to connect to:
+    KAFKA_BOOTSTRAP_SERVERS = localhost:9092
+
+CHECK:
+1. Start Kafka first. Follow START_KAFKA.md.
+2. Verify Kafka is running. In a terminal, run:
+   cd ~/kafka
+   bin/kafka-topics.sh --list --bootstrap-server localhost:9092
+3. Verify the topic exists. Follow MANAGE_TOPIC.md.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2026-05-20 22:14:59 | DEBUG | C02 | No variables found in .env
+2026-05-20 22:14:59 | DEBUG | P02 | No variables found in .env
+2026-05-20 22:14:59 | INFO | C02 | Processing raw message.
