@@ -5,9 +5,9 @@
 
 [project]
 site_name = "streaming-02-kafka"
-site_url = "https://denisecase.github.io/streaming-02-kafka/"
-repo_url = "https://github.com/denisecase/streaming-02-kafka"
-repo_name = "denisecase/streaming-02-kafka"
+site_url = "https://jarjarredred.github.io/streaming-02-kafka/"
+repo_url = "https://github.com/jarjarredred/streaming-02-kafka"
+repo_name = "jarjarredred/streaming-02-kafka"
 site_description = "Project documentation"
 docs_dir = "docs"
 site_dir = "site"
