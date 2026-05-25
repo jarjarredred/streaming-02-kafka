@@ -16,7 +16,7 @@ edit_uri = "edit/main/docs/"
 [project.extra]
 # WHY: Social links provide easy access to project repositories and profiles.
 social = [
-    {icon = "fontawesome/brands/github", link = "https://github.com/denisecase/streaming-02-kafka"},
+    {icon = "fontawesome/brands/github", link = "https://github.com/jarjarredred/streaming-02-kafka"},
 ]
 
 # ------------------------------------------------------------
